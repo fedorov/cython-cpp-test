@@ -57,6 +57,8 @@ def test_the_wrapped_class():
     T = PyTestClass()
     T.x = 15
     print(T.x)
+    print("Is -10 positive?")
+    print(T.IsPositive(-10))
     T = None
     
         
